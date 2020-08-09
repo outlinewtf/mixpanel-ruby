@@ -62,10 +62,10 @@ module Mixpanel
                    update_endpoint=nil,
                    groups_endpoint=nil,
                    import_endpoint=nil)
-      @events_endpoint = events_endpoint || 'https://api.mixpanel.com/track'
-      @update_endpoint = update_endpoint || 'https://api.mixpanel.com/engage'
-      @groups_endpoint = groups_endpoint || 'https://api.mixpanel.com/groups'
-      @import_endpoint = import_endpoint || 'https://api.mixpanel.com/import'
+      @events_endpoint = events_endpoint || 'https://api-eu.mixpanel.com/track'
+      @update_endpoint = update_endpoint || 'https://api-eu.mixpanel.com/engage'
+      @groups_endpoint = groups_endpoint || 'https://api-eu.mixpanel.com/groups'
+      @import_endpoint = import_endpoint || 'https://api-eu.mixpanel.com/import'
     end
 
     # Send the given string message to Mixpanel. Type should be
